@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "KiaSignatureLight";
+    src: url("fonts/woff/KiaSignatureLight.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "KiaSignatureRegular";
+    src: url("fonts/woff/KiaSignatureRegular.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "KiaSignatureBold";
+    src: url("fonts/woff/KiaSignatureBold.woff") format("woff");
+    font-display: swap;
+}
+
+body {
+    background-color: #ebeced;
+}
+
+.form-content {
+    background-color: #ffffff;
+    max-width: 1920px;
+}
+
+.pqr-form {
+    max-width: 850px;
+}
+
+.form-label {
+    font-family: "KiaSignatureRegular";
+    font-size: 14px;
+}
+
+.form-label::after {
+    content: "*";
+    color: red;
+    padding-left: 2px;
+}
+
+.form-control,
+.form-select {
+    border-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    margin-bottom: 0.3rem;
+}
+
+.form-title {
+    font-family: "KiaSignatureRegular";
+    font-size: 16px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.form-card {
+    border: 1px solid #ebeced;
+    padding: 10px;
+}
+
+.bg-title {
+    background-color: #000000;
+    border-left: 1px solid #ebeced;
+    border-top: 1px solid #ebeced;
+    border-right: 1px solid #ebeced;
+    padding: 10px 0;
+    /* border-radius: 6px 6px 0 0; */
+}
