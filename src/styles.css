@@ -34,7 +34,7 @@ body {
     font-size: 14px;
 }
 
-.form-label::after {
+.form-label-required::after {
     content: "*";
     color: red;
     padding-left: 2px;
